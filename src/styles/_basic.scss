@@ -2,12 +2,12 @@
 @use 'fonts';
 
 body{
-    font-family: 'Cabin';
+    font-family: 'Inter';
     font-weight: 400;
     background-color: vars.$bgColor;
 }
 
 .container{
-    max-width: 1296px;
+    max-width: 1780px;
     margin: 0 auto;
 }
