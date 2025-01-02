@@ -1,0 +1,9 @@
+@use 'sass:list';
+
+@mixin font-face($font-name, $font-paths, $font-weight) {
+    @font-face {
+        font-family: $font-name;
+        font-weight: $font-weight;
+        src: #{list.join($font-paths, null)};
+    }
+}

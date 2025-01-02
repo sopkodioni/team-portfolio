@@ -1,0 +1,33 @@
+@use 'mixins';
+
+@include mixins.font-face('Cabin', (
+    url('../fonts/Cabin/CabinCondensed-Regular.eot'),
+    url('../fonts/Cabin/CabinCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Cabin/CabinCondensed-Regular.woff2') format('woff2'),
+    url('../fonts/Cabin/CabinCondensed-Regular.woff') format('woff'),
+    url('../fonts/Cabin/CabinCondensed-Regular.ttf') format('truetype')
+), 400);
+
+@include mixins.font-face('Cabin', (
+    url('../fonts/Cabin/CabinCondensed-Bold.eot'),
+    url('./../fonts/Cabin/CabinCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Cabin/CabinCondensed-Bold.woff2') format('woff2'),
+    url('../fonts/Cabin/CabinCondensed-Bold.woff') format('woff'),
+    url('../fonts/Cabin/CabinCondensed-Bold.ttf') format('truetype')
+), 700);
+
+@include mixins.font-face('Cabin', (
+    url('../fonts/Cabin/CabinCondensed-Medium.eot'),
+    url('../fonts/Cabin/CabinCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Cabin/CabinCondensed-Medium.woff2') format('woff2'),
+    url('../fonts/Cabin/CabinCondensed-Medium.woff') format('woff'),
+    url('../fonts/Cabin/CabinCondensed-Medium.ttf') format('truetype')
+), 500);
+
+@include mixins.font-face('Cabin', (
+    url('../fonts/Cabin/CabinCondensed-SemiBold.eot'),
+    url('../fonts/Cabin/CabinCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Cabin/CabinCondensed-SemiBold.woff2') format('woff2'),
+    url('../fonts/Cabin/CabinCondensed-SemiBold.woff') format('woff'),
+    url('../fonts/Cabin/CabinCondensed-SemiBold.ttf') format('truetype')
+), 600);

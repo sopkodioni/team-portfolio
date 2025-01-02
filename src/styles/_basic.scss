@@ -1,0 +1,13 @@
+@use 'vars';
+@use 'fonts';
+
+body{
+    font-family: 'Cabin';
+    font-weight: 400;
+    background-color: vars.$bgColor;
+}
+
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+}
