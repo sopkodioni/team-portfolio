@@ -1,33 +1,58 @@
 @use 'mixins';
 
-@include mixins.font-face('Cabin', (
-    url('../fonts/Cabin/CabinCondensed-Regular.eot'),
-    url('../fonts/Cabin/CabinCondensed-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Cabin/CabinCondensed-Regular.woff2') format('woff2'),
-    url('../fonts/Cabin/CabinCondensed-Regular.woff') format('woff'),
-    url('../fonts/Cabin/CabinCondensed-Regular.ttf') format('truetype')
-), 400);
-
-@include mixins.font-face('Cabin', (
-    url('../fonts/Cabin/CabinCondensed-Bold.eot'),
-    url('./../fonts/Cabin/CabinCondensed-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Cabin/CabinCondensed-Bold.woff2') format('woff2'),
-    url('../fonts/Cabin/CabinCondensed-Bold.woff') format('woff'),
-    url('../fonts/Cabin/CabinCondensed-Bold.ttf') format('truetype')
+@include mixins.font-face('Gilory', (
+    url('../fonts/Gilory/Gilroy-Bold.eot'),
+    url('../fonts/Gilory/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilory/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/Gilory/Gilroy-Bold.woff') format('woff'),
+    url('../fonts/Gilory/Gilroy-Bold.ttf') format('truetype')
 ), 700);
 
-@include mixins.font-face('Cabin', (
-    url('../fonts/Cabin/CabinCondensed-Medium.eot'),
-    url('../fonts/Cabin/CabinCondensed-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Cabin/CabinCondensed-Medium.woff2') format('woff2'),
-    url('../fonts/Cabin/CabinCondensed-Medium.woff') format('woff'),
-    url('../fonts/Cabin/CabinCondensed-Medium.ttf') format('truetype')
+@include mixins.font-face('Gilory', (
+    url('../fonts/Gilory/Gilroy-SemiBold.eot'),
+    url('../fonts/Gilory/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilory/Gilroy-SemiBold.woff2') format('woff2'),
+    url('../fonts/Gilory/Gilroy-SemiBold.woff') format('woff'),
+    url('../fonts/Gilory/Gilroy-SemiBold.ttf') format('truetype')
+), 600);
+
+@include mixins.font-face('Gilory', (
+    url('../fonts/Gilory/Gilroy-Medium.eot'),
+    url('../fonts/Gilory/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilory/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilory/Gilroy-Medium.woff') format('woff'),
+    url('../fonts/Gilory/Gilroy-Medium.ttf') format('truetype')
 ), 500);
 
-@include mixins.font-face('Cabin', (
-    url('../fonts/Cabin/CabinCondensed-SemiBold.eot'),
-    url('../fonts/Cabin/CabinCondensed-SemiBold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Cabin/CabinCondensed-SemiBold.woff2') format('woff2'),
-    url('../fonts/Cabin/CabinCondensed-SemiBold.woff') format('woff'),
-    url('../fonts/Cabin/CabinCondensed-SemiBold.ttf') format('truetype')
-), 600);
+@include mixins.font-face('Gilory', (
+    url('../fonts/Gilory/Gilroy-Light.eot'),
+    url('../fonts/Gilory/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilory/Gilroy-Light.woff2') format('woff2'),
+    url('../fonts/Gilory/Gilroy-Light.woff') format('woff'),
+    url('../fonts/Gilory/Gilroy-Light.ttf') format('truetype')
+), 300);
+
+@include mixins.font-face('Gilory', (
+    url('../fonts/Gilory/Gilroy-ExtraBold.eot'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.woff') format('woff'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.ttf') format('truetype')
+), 800);
+
+@include mixins.font-face('Inter', (
+    url('../fonts/Gilory/Gilroy-ExtraBold.eot'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.woff2') format('woff2'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.woff') format('woff'),
+    url('../fonts/Gilory/Gilroy-ExtraBold.ttf') format('truetype')
+), 800);
+
+
+@include mixins.font-face('Inter', (
+    url('../fonts/Gilory/Inter-Regular.eot'),
+    url('../fonts/Gilory/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Gilory/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Gilory/Inter-Regular.woff') format('woff'),
+    url('../fonts/Gilory/Inter-Regular.ttf') format('truetype')
+), 400);
