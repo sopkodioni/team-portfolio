@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "browser-sync": "^3.0.3",
     "cssnano": "^7.0.6",
     "gulp": "^5.0.0",
