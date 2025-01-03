@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "book-shop",
+  "name": "team-portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
