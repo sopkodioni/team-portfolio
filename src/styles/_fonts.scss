@@ -41,18 +41,9 @@
 ), 800);
 
 @include mixins.font-face('Inter', (
-    url('../fonts/Gilory/Gilroy-ExtraBold.eot'),
-    url('../fonts/Gilory/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Gilory/Gilroy-ExtraBold.woff2') format('woff2'),
-    url('../fonts/Gilory/Gilroy-ExtraBold.woff') format('woff'),
-    url('../fonts/Gilory/Gilroy-ExtraBold.ttf') format('truetype')
-), 800);
-
-
-@include mixins.font-face('Inter', (
-    url('../fonts/Gilory/Inter-Regular.eot'),
-    url('../fonts/Gilory/Inter-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Gilory/Inter-Regular.woff2') format('woff2'),
-    url('../fonts/Gilory/Inter-Regular.woff') format('woff'),
-    url('../fonts/Gilory/Inter-Regular.ttf') format('truetype')
+    url('../fonts/Inter/Inter-Regular.eot'),
+    url('../fonts/Inter/Inter-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Inter/Inter-Regular.woff2') format('woff2'),
+    url('../fonts/Inter/Inter-Regular.woff') format('woff'),
+    url('../fonts/Inter/Inter-Regular.ttf') format('truetype')
 ), 400);
