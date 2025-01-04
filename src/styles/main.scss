@@ -3,3 +3,8 @@
 @use 'vars';
 @use 'basic';
 @use 'mixins';
+
+@use 'components/header/header';
+@use 'components/header/header-media';
+
+@use 'main-media';

@@ -1,0 +1,49 @@
+.header{
+    .container--header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &__btn-menu{
+        background: none;
+        border: none;
+        font-family: "Gilory";
+        font-weight: 600;
+        font-size: 25px;
+        color: #252525;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
+
+.header__logo{
+    line-height: 0.75;
+
+    &-text{
+        display: none;
+        text-transform: none;
+        font-family: "Gilory";
+        font-weight: 800;
+        font-size: 35px;
+        letter-spacing: -0.02em;
+        color: #000;
+        
+        span{
+            font-family: 'Gilory';
+            text-transform: uppercase;
+            font-weight: 400;
+
+            span{
+                position: relative;
+                top: 3px;
+                padding-left: 2px;
+                vertical-align: super;
+                font-weight: 300;
+                font-size: 25px;
+            }
+        }
+    }
+}
