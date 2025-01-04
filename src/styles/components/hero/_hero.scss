@@ -1,0 +1,31 @@
+.hero{
+    padding-top: 10px;
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    &__title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Gilory";
+        font-weight: 300;
+        font-size: 36px;
+        color: #252525;
+
+        span{
+            font-weight: 600;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+    }
+
+    // &__image{
+
+    // }
+}
