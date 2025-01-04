@@ -1,9 +1,49 @@
 @media screen and (min-width: 769px){
     .hero{
-        padding-top: 10px;
+        padding-top: 20px;
+
+        &__content{
+            margin-bottom: 40px;
+        }
 
         &__title{
             font-size: 92px;
+        }
+
+        &__image{
+            &-mobile{
+                display: none;
+            }
+            &-tablet{
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1201px){
+    .hero{
+        padding-top: 30px;
+        
+        &__content{
+            margin-bottom: 50px;
+        }
+
+        &__title{
+            font-size: 138px;
+        
+            span{
+                margin-bottom: 10px;
+            }
+        }
+
+        &__image{
+            &-mobile, &-tablet{
+                display: none;
+            }
+            &-desktop{
+                display: block;
+            }
         }
     }
 }
