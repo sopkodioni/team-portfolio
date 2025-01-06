@@ -4,6 +4,9 @@
 @use 'basic';
 @use 'mixins';
 
+@use 'components/header/header';
+@use 'components/header/header-media';
+
 @use 'components/hero/hero';    
 @use 'components/hero/hero-media';    
 
