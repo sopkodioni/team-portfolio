@@ -1,0 +1,43 @@
+@use '../../vars';
+
+.about{
+    &__text{
+        padding: 30px 20px;
+
+        p{
+            font-family: 'Gilory';
+            font-weight: 300;
+            font-size: 20px;
+            text-align: center;
+            color: vars.$mainColor;
+            line-height: 1.15;
+
+            span{
+                font-weight: 800;
+            }
+        }
+    }
+
+    &__socials{
+        background-color: vars.$mainColor;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 30px;
+
+        h3{
+            font-family: "Gilory";
+            font-weight: 400;
+            font-size: 28px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        &-links{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+}
