@@ -9,3 +9,26 @@
     }
 }
 
+@media screen and (min-width: 1200px){
+    .about{
+        padding: 93px 0;
+        display: flex;
+        
+        &__text{
+            padding: 0 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+            p{
+                font-size: 39px;
+                text-align: left;
+            }
+        }
+
+        &__socials{
+            max-width: 485px;
+            padding: 60px 70px;
+        }
+    }
+}
