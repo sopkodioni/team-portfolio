@@ -1,0 +1,19 @@
+@use '../../vars';
+
+.button{
+    border: none;
+    display: block;
+    border-radius: 50px;
+    padding: 15px 30px;
+    background-color: #fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &--dark{
+        background-color: vars.$mainColor;
+        color: #fff;
+        gap: 10px;
+    }
+}
