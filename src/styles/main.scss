@@ -4,6 +4,10 @@
 @use 'basic';
 @use 'mixins';
 
+// components
+@use 'components/button/button';
+
+// sections
 @use 'components/header/header';
 @use 'components/header/header-media';
 
@@ -15,5 +19,8 @@
 
 @use 'components/logos/logos';
 @use 'components/logos/logos-media';
+
+@use 'components/works/works';
+@use 'components/works/works-media';
 
 @use 'main-media';
