@@ -1,0 +1,56 @@
+@media screen and (min-width: 769px) {
+    .team{
+        &__list-team{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        &__list-team{
+            flex-direction: row;
+        }
+
+        &__list-team-item{
+            width: 47%;
+            flex: 1 1 auto;
+            align-self: stretch;
+
+            &-socials{
+                justify-content: flex-end;
+            }
+        }
+
+        &__list-team-invite{
+            align-items: flex-start;
+
+            p{
+                text-align: left;
+                font-size: 47px;
+            }
+
+            .button{
+                align-self: flex-start;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .team{
+        &__list-team{
+            &-item{
+                width: 22%;
+                flex-grow: 0;
+            }
+
+            &-invite{
+                width: 48%;
+                justify-content: center;
+
+                p{
+                    font-size: 42px;
+                }
+            }
+        }
+    }
+}

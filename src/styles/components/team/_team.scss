@@ -16,10 +16,6 @@
     }
 
     &__list-team{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-
         &-item{
             display: flex;
             flex-direction: column;
@@ -32,6 +28,8 @@
             }
 
             &-socials{
+                width: 100%;
+                justify-content: center;
                 display: flex;
                 align-items: center;
                 gap: 10px;
@@ -100,6 +98,7 @@
                 text-align: center;
                 color: #333;
             }
+
             p{
                 font-family: 'Gilory';
                 font-weight: 700;
@@ -108,6 +107,7 @@
                 text-align: center;
                 color: #333;
             }
+
             .button{
                 align-self: stretch;
                 span{
