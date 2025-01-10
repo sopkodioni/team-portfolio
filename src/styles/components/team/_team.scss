@@ -1,5 +1,9 @@
+@use '../../vars';
+
 .team{
+    padding-top: 30px;
     padding-bottom: 50px;
+    border-top: 1px solid vars.$mainColor;
 
     &__title{
         font-family: "Gilory";
