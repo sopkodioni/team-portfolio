@@ -1,0 +1,60 @@
+@media screen and (min-width: 769px) {
+    .works{
+        &__title{
+            font-size: 110px;
+        }
+
+        &__list{
+            margin-bottom: 70px;
+            
+            .button{
+                font-size: 18px;
+            }
+        }
+
+        &__list-item{
+            h3{
+                font-size: 30px;
+            }
+        }
+        
+        .button--works{
+            width: fit-content;
+            margin: 0 auto;
+            padding: 15px 60px;
+        }
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .works{
+        padding-top: 70px;
+        padding-bottom: 100px;
+
+        &__title{
+            margin-bottom: 60px;
+            font-size: 120px;
+        }
+
+        &__list{
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr 1fr;
+
+            &-item{
+                &--btns{
+                    grid-column: 1;
+                    grid-row-start: 1;
+                }
+
+                &--btns-second{
+                    grid-column: 3;
+                    grid-row-start: 2;
+                }
+
+                .button--works-list{
+                    margin-top: auto;
+                }
+            }
+        }
+    }
+}
