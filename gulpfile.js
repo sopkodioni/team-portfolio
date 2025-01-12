@@ -11,6 +11,7 @@ import postCss from 'gulp-postcss'
 import mergeCssRules from 'postcss-merge-rules'
 
 const sass = gulpSass(sassLib)
+const bsc = browserSync.create()
 
 export const htmlHandler = () => {
     return gulp.src('./src/*.html')
@@ -46,11 +47,9 @@ export const cleaner = () => {
 }
 
 export const buildProject = gulp.series(cleaner, gulp.parallel(htmlHandler, cssHandler, imgHandler, fontsHandler))
-
-export const startWatch = () => {
-    buildProject()
-
-    browserSync.init({
+ 
+export const browserSyncStart = () => {
+    bsc.init({
         server: {
             baseDir: './build'
         }
@@ -58,4 +57,9 @@ export const startWatch = () => {
     
     gulp.watch('./src/**/*', buildProject)
     gulp.watch('./src/**/*').on('change', browserSync.reload) 
+}
+
+export const startDev = () => {
+    const buildAndStartBsc = gulp.series(buildProject, browserSyncStart)
+    buildAndStartBsc()
 }
